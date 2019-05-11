@@ -108,7 +108,7 @@ queue queue::operator +(const queue &RHS) {
 
 void queue::operator +=(const queue &RHS) {
 	queue tempQ(RHS);
-	while(!tempQ.isEmpty()) this->enqueue(tempQ.enqueue());
+	while(!tempQ.isEmpty()) this->enqueue(tempQ.dequeue());
 	return;
 }
 

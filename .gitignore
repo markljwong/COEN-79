@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But not these files:
+!.gitignore
+!.gitattributes
+!*/HW1/HW1/*.cpp
+!*/HW1/HW1/*.h
+!*/HW2/HW2/*.cpp
+!*/HW2/HW2/*.h
+!*/HW3/HW3/*.cpp
+!*/HW3/HW3/*.h
+!*/HW4/HW4/*.cpp
+!*/HW4/HW4/*.h
